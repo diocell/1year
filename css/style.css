@@ -15,9 +15,29 @@
     );
 }
 
+@font-face {
+    font-family: SemiBold;
+    src: url(../fonts/static/Cabin-SemiBold.ttf);
+}
+
 img{
     width: 350px;
     height: 275px;
+    border-radius: 10px;
+}
+
+a{
+    font-family: SemiBold;
+    font-size: 20px;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    text-decoration: none !important;
+    color: #ffffff !important;
+    background-color: #1b1a1ae1;
+    padding: 5px 10px;
+    text-align: center;
+    border-radius: 30px;
 }
 
 h1{
@@ -67,13 +87,28 @@ header{
 
 .imagens{
     display: grid;
-    justify-content: center;
+    justify-content: space-between;
+    align-items: center;
     row-gap: 100px;
     column-gap: 100px;
     grid-template-columns: auto auto auto;
 }
 
-.imagens img:hover{
-    background-color: #1f1d1dd2;
+.estil-img img:hover{
+    opacity: 0.9;
+    background-color: #1f1d1d;
     cursor: pointer;
+}
+
+.botao{
+    margin-top: 5px;
+    display: none;
+    justify-content: center;
+}
+
+.estil-img h2{
+    text-align: center;
+    color: #ffffff;
+    white-space: nowrap;
+    font-size: 22px;
 }
