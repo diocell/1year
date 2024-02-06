@@ -34,8 +34,9 @@ h1{
 }
 
 body {
-    width: 100vw;
+    width: 100%;
     background-color: #4370b4 !important;
+    cursor: ;
 }
 
 header{
@@ -183,3 +184,40 @@ header{
     transform: translateY(0);
 } */
 
+@media (max-width: 480px){
+
+    .estil-img img{
+        width: 310px;
+        height: 235px;
+    }
+
+    h1{
+        font-size: 35px !important;
+    }
+
+    body{
+        width: 100vw !important;
+    }
+
+    .container{
+        width: 100vw !important;
+    }
+
+    header{
+        width: 100vw !important;
+    }
+
+    .imagens{
+        grid-template-columns: none;
+        row-gap: 10px;
+        column-gap: none;
+    }
+
+    .img-box{
+        margin-top: 0;
+    }
+
+    .margem{
+        margin-top: 10px;
+    }
+}
