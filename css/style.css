@@ -61,6 +61,7 @@ header{
 .home-title h2{
     color: #ffffff;
     font-family: Paragrafos;
+    text-align: center;
 }
 
 .img-box{
@@ -95,8 +96,9 @@ header{
 }
 
 .conteudo{
-    width: max-content;
-    white-space: nowrap;
+    max-width: max-content;
+    width: auto;
+    white-space: normal;
     position: absolute;
     top: 50%;
     left: 50%;
@@ -105,7 +107,7 @@ header{
     transition: opacity 0.3s;
 }
 
-.conteudo a{
+.conteudo p{
     text-decoration: none;
     color: #ffffff;
     text-align: center;
