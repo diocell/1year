@@ -16,6 +16,11 @@
 }
 
 @font-face {
+    font-family: SubT;
+    src: url(../fonts/Cabin-Italic-VariableFont_wdth\,wght.ttf);
+}
+
+@font-face {
     font-family: SemiBold;
     src: url(../fonts/static/Cabin-SemiBold.ttf);
 }
@@ -108,11 +113,18 @@ header{
 }
 
 .conteudo p{
+    margin-bottom: 0; 
     text-decoration: none;
     color: #ffffff;
     text-align: center;
     font-family: SemiBold;
     font-size: 25px;
+    padding: 0;
+}
+
+.conteudo p:last-child{
+    font-size: 10px;
+    font-family: subT;
 }
 
 .estil-img:hover .conteudo{
