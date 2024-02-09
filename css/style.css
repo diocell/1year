@@ -27,15 +27,15 @@
 
 h1{
     text-align: center;
+    text-shadow: -1px 0 rgb(0, 0, 0), 0 1px rgb(0, 0, 0), 1px 0 rgb(0, 0, 0), 0 -1px rgb(0, 0, 0);
     font-family: FonteTitulo;
     font-size: 75px !important;
-    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    /* text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25); */
 }
 
 body {
     width: 100%;
-    background-color: #4370b4 !important;
-    cursor: ;
+    background-image: linear-gradient(to bottom right, #161515, #2b2828 );
 }
 
 header{
@@ -67,7 +67,7 @@ header{
     color: #ffffff;
     font-family: Paragrafos;
     text-align: center;
-}
+    text-shadow:  0px 4px 4px rgba(0, 0, 0, 0.5);}
 
 .img-box{
     display: flex;
@@ -160,7 +160,7 @@ header{
     text-align: center;
     font-size: 30px;
     color: #ffffff;
-    text-shadow:  0px 4px 4px rgba(0, 0, 0, 0.5);;
+    text-shadow:  0px 4px 4px rgba(0, 0, 0, 0.5);
 }
 
 .heart {
