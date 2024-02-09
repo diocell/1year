@@ -146,6 +146,82 @@ header{
     border-radius: 10px;
 }
 
+.endpage{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    margin: 35px 0 15px 0;
+}
+
+.endpage h4{
+    font-family: semiBold;
+    text-align: center;
+    font-size: 30px;
+    color: #ffffff;
+    text-shadow:  0px 4px 4px rgba(0, 0, 0, 0.5);;
+}
+
+.heart {
+    margin: 200px;
+    background-color: blue;
+    height: 200px;
+    transform: rotate(-45deg);
+    width: 200px;
+    position: relative;
+}
+
+.container-heart{
+    display: flex;
+    justify-content: center;
+}
+
+.heart:before,
+.heart:after {
+  content: "";
+  background-color: red;
+  border-radius: 50%;
+  height: 200px;
+  position: absolute;
+  width: 200px;
+}
+
+.heart:before {
+    top: -100px;
+}
+
+.heart:after {
+    left: 100px;
+}
+
+.heart {
+    margin: 200px;
+    background-color: red;
+    height: 200px;
+    transform: rotate(-45deg);
+    width: 200px;
+    position: relative;
+}
+
+.heart:before,
+.heart:after {
+    content: "";
+    background-color: red;
+    border-radius: 50%;
+    height: 200px;
+    position: absolute;
+    width: 200px;
+}
+
+.heart:before {
+    top: -100px;
+}
+
+.heart:after {
+    left: 100px;
+}
+
 /* TESTANDO CÓDIGO */
 
 /* .card{
@@ -228,5 +304,13 @@ header{
 
     .margem{
         margin-top: 10px;
+    }
+
+    .heart{
+        margin: 100px 0 0 0;
+    }
+
+    .endpage h4{
+        font-size: 20px;
     }
 }
