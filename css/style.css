@@ -34,6 +34,7 @@ h1{
 }
 
 body {
+    height: 100%;
     width: 100%;
     background-image: linear-gradient(to bottom right, #161515, #2b2828 );
 }
@@ -220,6 +221,20 @@ header{
 
 .heart:after {
     left: 100px;
+}
+
+/* PAGINA DE CADA FOTO */
+
+.endpage p{
+    text-decoration: none;
+    color: #ffffff;
+    font-family: Paragrafos;
+    font-size: 20px;
+}
+
+.top-image{
+    margin-top: 30px;
+    color: #ffffff;
 }
 
 /* TESTANDO CÓDIGO */
