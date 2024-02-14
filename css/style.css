@@ -172,7 +172,7 @@ header{
 }
 
 .heart {
-    margin: 200px;
+    margin: 200px 0 100px 0;
     background-color: blue;
     height: 200px;
     transform: rotate(-45deg);
@@ -204,7 +204,7 @@ header{
 }
 
 .heart {
-    margin: 200px;
+    margin: 100px 0 100px 0;
     background-color: red;
     height: 200px;
     transform: rotate(-45deg);
@@ -237,6 +237,12 @@ header{
     color: #ffffff;
     font-family: Paragrafos;
     font-size: 20px;
+}
+
+.endpage footer p{
+    font-family: inherit;
+    font-weight: 100;
+    font-style: italic;
 }
 
 .top-image{
