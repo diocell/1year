@@ -125,6 +125,7 @@
 @media (max-width: 480px) {
     .item1{
         grid-column: none;
+        top: 0;
     }
 
     .item2{

@@ -36,7 +36,7 @@ h1{
 body {
     height: 100%;
     width: 100%;
-    background-image: linear-gradient(to bottom right, #161515, #2b2828 );
+    background-color: #2b2828 !important;
 }
 
 header{
@@ -148,12 +148,18 @@ header{
 }
 
 .endpage{
+    opacity: 0;
+    transition: opacity 0.7s ease;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     position: relative;
     margin: 35px 0 15px 0;
+}
+
+.show-text{
+    opacity: 1;
 }
 
 .endpage h4{
@@ -287,8 +293,12 @@ header{
 @media (max-width: 480px){
 
     .estil-img img{
-        width: 310px;
-        height: 235px;
+        margin-left: auto;
+        margin-right: auto;
+        width: 90%;
+        height: auto;
+        /* width: 310px;
+        height: 235px; */
     }
 
     h1{
@@ -297,6 +307,7 @@ header{
 
     body{
         width: 100vw !important;
+        height: 100%;
     }
 
     .container{
