@@ -5,6 +5,11 @@
 }
 
 @font-face {
+    font-family: TextoFotos;
+    src: url(../fonts/Quicksand/static/Quicksand-Light.ttf);
+}
+
+@font-face {
     font-family: FonteTitulo;
     src: url(../fonts/static/Cabin-BoldItalic.ttf);
 }
@@ -235,13 +240,13 @@ header{
 .endpage p{
     text-decoration: none;
     color: #ffffff;
-    font-family: Paragrafos;
-    font-size: 20px;
+    font-family: TextoFotos;
+    font-size: 18px;
 }
 
 .endpage footer p{
     font-family: inherit;
-    font-weight: 100;
+    font-weight: 400;
     font-style: italic;
 }
 
@@ -340,7 +345,7 @@ header{
     }
 
     .heart{
-        margin: 100px 0 0 0;
+        margin: 100px 0 100px 0;
     }
 
     .endpage h4{
