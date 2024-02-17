@@ -176,21 +176,26 @@ header{
     text-shadow:  0px 4px 4px rgba(0, 0, 0, 0.5);
 }
 
-.heart {
+.container-heart{
+    display: flex;
+    justify-content: center;
+}
+
+.fa-heart{
+    color: #e01414;
+    font-size: 500px;
+}
+
+/* .heart {
     margin: 200px 0 100px 0;
     background-color: blue;
     height: 174px;
     transform: rotate(-45deg);
     width: 175px;
     position: relative;
-}
+} */
 
-.container-heart{
-    display: flex;
-    justify-content: center;
-}
-
-.heart:before,
+/* .heart:before,
 .heart:after {
   content: "";
   background-color: red;
@@ -233,7 +238,7 @@ header{
 
 .heart:after {
     left: 100px;
-}
+} */
 
 /* PAGINA DE CADA FOTO */
 
@@ -344,11 +349,15 @@ header{
         margin-top: 10px;
     }
 
-    .heart{
+    /* .heart{
         margin: 100px 0 100px 0;
-    }
+    } */
 
     .endpage h4{
         font-size: 20px;
+    }
+
+    .fa-heart{
+        font-size: 300px;
     }
 }
