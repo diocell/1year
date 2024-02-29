@@ -1,43 +1,22 @@
-Cabin Variable Font
-===================
+Quicksand Variable Font
+=======================
 
-This download contains Cabin as both variable fonts and static fonts.
+This download contains Quicksand as both a variable font and static fonts.
 
-Cabin is a variable font with these axes:
-  wdth
+Quicksand is a variable font with this axis:
   wght
 
-This means all the styles are contained in these files:
-  Cabin-VariableFont_wdth,wght.ttf
-  Cabin-Italic-VariableFont_wdth,wght.ttf
+This means all the styles are contained in a single file:
+  Quicksand-VariableFont_wght.ttf
 
 If your app fully supports variable fonts, you can now pick intermediate styles
 that aren’t available as static fonts. Not all apps support variable fonts, and
-in those cases you can use the static font files for Cabin:
-  static/Cabin_Condensed-Regular.ttf
-  static/Cabin_Condensed-Medium.ttf
-  static/Cabin_Condensed-SemiBold.ttf
-  static/Cabin_Condensed-Bold.ttf
-  static/Cabin_SemiCondensed-Regular.ttf
-  static/Cabin_SemiCondensed-Medium.ttf
-  static/Cabin_SemiCondensed-SemiBold.ttf
-  static/Cabin_SemiCondensed-Bold.ttf
-  static/Cabin-Regular.ttf
-  static/Cabin-Medium.ttf
-  static/Cabin-SemiBold.ttf
-  static/Cabin-Bold.ttf
-  static/Cabin_Condensed-Italic.ttf
-  static/Cabin_Condensed-MediumItalic.ttf
-  static/Cabin_Condensed-SemiBoldItalic.ttf
-  static/Cabin_Condensed-BoldItalic.ttf
-  static/Cabin_SemiCondensed-Italic.ttf
-  static/Cabin_SemiCondensed-MediumItalic.ttf
-  static/Cabin_SemiCondensed-SemiBoldItalic.ttf
-  static/Cabin_SemiCondensed-BoldItalic.ttf
-  static/Cabin-Italic.ttf
-  static/Cabin-MediumItalic.ttf
-  static/Cabin-SemiBoldItalic.ttf
-  static/Cabin-BoldItalic.ttf
+in those cases you can use the static font files for Quicksand:
+  static/Quicksand-Light.ttf
+  static/Quicksand-Regular.ttf
+  static/Quicksand-Medium.ttf
+  static/Quicksand-SemiBold.ttf
+  static/Quicksand-Bold.ttf
 
 Get started
 -----------

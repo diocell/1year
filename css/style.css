@@ -5,6 +5,11 @@
 }
 
 @font-face {
+    font-family: TextoFotos;
+    src: url(../fonts/Quicksand/static/Quicksand-Light.ttf);
+}
+
+@font-face {
     font-family: FonteTitulo;
     src: url(../fonts/static/Cabin-BoldItalic.ttf);
 }
@@ -16,27 +21,28 @@
 }
 
 @font-face {
+    font-family: SubT;
+    src: url(../fonts/Cabin-Italic-VariableFont_wdth\,wght.ttf);
+}
+
+@font-face {
     font-family: SemiBold;
     src: url(../fonts/static/Cabin-SemiBold.ttf);
 }
 
-img{
-    width: 350px;
-    height: 275px;
-    border-radius: 10px;
-}
-
 h1{
     text-align: center;
+    text-shadow: -1px 0 rgb(0, 0, 0), 0 1px rgb(0, 0, 0), 1px 0 rgb(0, 0, 0), 0 -1px rgb(0, 0, 0);
     font-family: FonteTitulo;
     font-size: 75px !important;
-    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    /* text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25); */
 }
 
 body {
+    height: 100%;
     width: 100%;
-    background-color: #4370b4 !important;
-    cursor: ;
+    background-color: #242222 !important;
+    /* background-color: #2b2828 !important; */
 }
 
 header{
@@ -67,24 +73,25 @@ header{
 .home-title h2{
     color: #ffffff;
     font-family: Paragrafos;
-}
+    text-align: center;
+    text-shadow:  0px 4px 4px rgba(0, 0, 0, 0.5);}
 
 .img-box{
     display: flex;
+    width: 100vw;
     justify-content: center;
     margin-top: 30px;
     width: 100%;
-    max-width: auto;
 }
 
 .imagens{
     position: relative;
     display: grid;
-    justify-content: space-between;
     align-items: center;
-    row-gap: 100px;
-    column-gap: 100px;
-    grid-template-columns: auto auto auto;
+    justify-content: space-between;
+    row-gap: 20px;
+    column-gap: 5px;
+    grid-template-columns:auto auto auto;
 }
 
 .estil-img{
@@ -101,8 +108,9 @@ header{
 }
 
 .conteudo{
-    width: max-content;
-    white-space: nowrap;
+    max-width: max-content;
+    width: auto;
+    white-space: normal;
     position: absolute;
     top: 50%;
     left: 50%;
@@ -111,12 +119,19 @@ header{
     transition: opacity 0.3s;
 }
 
-.conteudo a{
+.conteudo p{
+    margin-bottom: 0; 
     text-decoration: none;
     color: #ffffff;
     text-align: center;
     font-family: SemiBold;
     font-size: 25px;
+    padding: 0;
+}
+
+.conteudo p:last-child{
+    font-size: 10px;
+    font-family: subT;
 }
 
 .estil-img:hover .conteudo{
@@ -132,9 +147,125 @@ header{
 
 .estil-img img{
     display: block;
-    width: 350px;
-    height: 275px;
+    align-self: start;
+    width: 100%;
+    height: 100%;
     border-radius: 10px;
+}
+
+.endpage{
+    opacity: 0;
+    transition: opacity 0.7s ease;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    margin: 35px 0 15px 0;
+}
+
+.show-text{
+    opacity: 1;
+}
+
+.endpage h4{
+    font-family: semiBold;
+    text-align: center;
+    font-size: 30px;
+    color: #ffffff;
+    text-shadow:  0px 4px 4px rgba(0, 0, 0, 0.5);
+}
+
+.container-heart{
+    display: flex;
+    justify-content: center;
+}
+
+.fa-heart{
+    color: #e01414;
+    font-size: 500px;
+}
+
+.ultimoParagrafo{
+    text-align: center;
+}
+
+.ultimoParagrafo b{
+    font-size: 25px;
+}
+
+/* .heart {
+    margin: 200px 0 100px 0;
+    background-color: blue;
+    height: 174px;
+    transform: rotate(-45deg);
+    width: 175px;
+    position: relative;
+} */
+
+/* .heart:before,
+.heart:after {
+  content: "";
+  background-color: red;
+  border-radius: 50%;
+  height: 175px;
+  position: absolute;
+  width: 175px;
+}
+
+.heart:before {
+    top: -100px;
+}
+
+.heart:after {
+    left: 100px;
+}
+
+.heart {
+    margin: 100px 0 100px 0;
+    background-color: red;
+    height: 200px;
+    transform: rotate(-45deg);
+    width: 200px;
+    position: relative;
+}
+
+.heart:before,
+.heart:after {
+    content: "";
+    background-color: red;
+    border-radius: 50%;
+    height: 200px;
+    position: absolute;
+    width: 200px;
+}
+
+.heart:before {
+    top: -100px;
+}
+
+.heart:after {
+    left: 100px;
+} */
+
+/* PAGINA DE CADA FOTO */
+
+.endpage p{
+    text-decoration: none;
+    color: #ffffff;
+    font-family: TextoFotos;
+    font-size: 18px;
+}
+
+.endpage footer p{
+    font-family: inherit;
+    font-weight: 400;
+    font-style: italic;
+}
+
+.top-image{
+    margin-top: 30px;
+    color: #ffffff;
 }
 
 /* TESTANDO CÓDIGO */
@@ -187,8 +318,12 @@ header{
 @media (max-width: 480px){
 
     .estil-img img{
-        width: 310px;
-        height: 235px;
+        margin-left: auto;
+        margin-right: auto;
+        width: 90%;
+        height: auto;
+        /* width: 310px;
+        height: 235px; */
     }
 
     h1{
@@ -197,6 +332,7 @@ header{
 
     body{
         width: 100vw !important;
+        height: 100%;
     }
 
     .container{
@@ -208,7 +344,7 @@ header{
     }
 
     .imagens{
-        grid-template-columns: none;
+        
         row-gap: 10px;
         column-gap: none;
     }
@@ -219,5 +355,17 @@ header{
 
     .margem{
         margin-top: 10px;
+    }
+
+    /* .heart{
+        margin: 100px 0 100px 0;
+    } */
+
+    .endpage h4{
+        font-size: 20px;
+    }
+
+    .fa-heart{
+        font-size: 300px;
     }
 }
