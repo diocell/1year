@@ -242,10 +242,12 @@
     .item21{
         grid-column: 1/1;
         margin-top: 0;
+        grid-row: 22/22;
     }
 
     .item22{
         grid-column: 1/1;
         margin-top: 0;
+        grid-row: 21/21;
     }
 }
